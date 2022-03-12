@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog`,
+    title: `new`,
     siteUrl: `https://www.yourdomain.tld`,
-    author: `@jencaza33`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,18 +23,9 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-reading-time`,
-        ],
-      }
+        plugins: [`gatsby-remark-reading-time`],
+      },
     },
-    `gatsby-trasnformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-
-      }
-    }
+  
   ]
 };
